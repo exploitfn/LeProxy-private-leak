@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="mak.cpp" />
+    <ClCompile Include="obsidium\keygen64.cpp">
+      <Filter>obsidium</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9xof.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9tex.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shape.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shader.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9mesh.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9math.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9math.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9effect.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9core.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9anim.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>Directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="fn.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="reg.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h" />
+    <ClInclude Include="obsidium\obsidium.h">
+      <Filter>obsidium</Filter>
+    </ClInclude>
+    <ClInclude Include="obsidium\obsidium64.h">
+      <Filter>obsidium</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{c5fd8147-5486-4ffb-bda6-96e542a4b015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{30bd9705-e1e1-4c2b-9c62-a47a2c3fa03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Directx9">
+      <UniqueIdentifier>{561a461a-7f59-4edb-a882-5ebbd24324c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obsidium">
+      <UniqueIdentifier>{fb3a46de-4822-4dfa-be98-ca75c74dae0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3DX\d3dx9math.inl">
+      <Filter>Directx9</Filter>
+    </None>
+    <None Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\keygen64.dll">
+      <Filter>obsidium</Filter>
+    </None>
+    <None Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\obsidium64.def">
+      <Filter>obsidium</Filter>
+    </None>
+    <None Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\obsidium64.dll">
+      <Filter>obsidium</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3DX\d3dx9.lib">
+      <Filter>Directx9</Filter>
+    </Library>
+    <Library Include="..\..\downloads\Fortnite-Linora-Internal-Updated-main (3)\Fortnite-Linora-Internal-Updated-main\atls.lib" />
+    <Library Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\keygen64.lib">
+      <Filter>obsidium</Filter>
+    </Library>
+    <Library Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\obsidium64.a">
+      <Filter>obsidium</Filter>
+    </Library>
+    <Library Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\obsidium64.lib">
+      <Filter>obsidium</Filter>
+    </Library>
+    <Library Include="..\..\spoofer sources\SpooferLoader\SpooferLoader\libcurl.lib" />
+    <Library Include="..\..\spoofer sources\SpooferLoader\SpooferLoader\library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\ImBoredAndIHateNiggerslol\ImBoredAndIHateNiggerslol\obsidium\obsidiumlib.obj">
+      <Filter>obsidium</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

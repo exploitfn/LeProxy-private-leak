@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sony\Driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9anim.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9core.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9effect.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9math.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9math.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9mesh.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shader.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shape.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9tex.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9xof.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="External.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="dtcnerds.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Sony\Driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Sony\lib.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3DX\d3dx9.lib">
+      <Filter>D3DX</Filter>
+    </Library>
+    <Library Include="D:\pasting\fortnite_external_fortnite_3.5_version_shit\x64\Release\atls.lib" />
+    <Library Include="..\..\fortnite_external_fortnite_3.5_version_shit\SonyDriverHelper.lib">
+      <Filter>Driver</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{3b3995db-2030-4834-ab2d-5aa65ace6f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DX">
+      <UniqueIdentifier>{e2fcd8bb-f25a-42a0-9568-d85d762260ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{27b72723-e025-4e6e-9a4f-cd1876afb407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{2e68af4f-435f-4e46-93d3-6e2f7d4c8c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{16d93bed-e723-4b2c-be39-9b37a7182ed1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3DX\d3dx9math.inl">
+      <Filter>D3DX</Filter>
+    </None>
+  </ItemGroup>
+</Project>
